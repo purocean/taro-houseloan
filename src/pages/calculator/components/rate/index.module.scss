@@ -1,0 +1,45 @@
+.rate {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 96px;
+  height: 56px;
+  background: #f4f4f4;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 28px;
+  color: #666;
+  line-height: 56px;
+}
+
+.unit {
+  height: 40px;
+  font-size: 28px;
+  color: rgba(174,131,64,1);
+  line-height: 40px;
+  margin-left: 8px;
+}
+
+.times {
+  height: 40px;
+  font-size: 28px;
+  color: #333;
+  line-height: 40px;
+  margin: 0 16px;
+}
+
+.result {
+  height: 40px;
+  font-size: 28px;
+  color: #333;
+  line-height: 40px;
+  margin-left: 16px;
+}

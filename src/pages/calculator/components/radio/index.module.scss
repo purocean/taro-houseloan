@@ -1,0 +1,29 @@
+.radio {
+  height: 100px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 38px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
+.label {
+  width: 112px;
+  height: 40px;
+  font-size: 28px;
+  color: #666;
+  line-height: 40px;
+  margin-left: 6px;
+}

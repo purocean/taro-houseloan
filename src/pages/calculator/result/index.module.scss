@@ -1,0 +1,174 @@
+page {
+  background: #F5F5F5;
+}
+
+.result {
+  background: #F5F5F5;
+}
+
+.top {
+  background: #fff;
+  padding: 38px 30px 8px 30px;
+}
+
+.topCard {
+  background: #fff;
+  height: 218px;
+  background: rgba(230, 56, 54, 1);
+  box-shadow: 0px 12px 26px 0px rgba(0, 0, 0, 0.04), 0px 4px 12px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  padding-top: 58px;
+  margin-bottom: 32px;
+}
+
+.topCardBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  // z-index: -1;
+}
+
+.topCardTextA {
+  text-align: center;
+  height: 66px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 66px;
+}
+
+.topCardTextB {
+  text-align: center;
+  height: 40px;
+  font-size: 28px;
+  color: #fff;
+  line-height: 40px;
+}
+
+.topItem {
+  height: 108px;
+  background: #fff;
+  box-shadow: 0px -1px 0px 0px rgba(214, 214, 214, 1);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+  align-items: center;
+}
+
+.topItemLabel {
+  height: 40px;
+  font-size: 28px;
+  color: #333;
+  line-height: 40px;
+}
+
+.topItemValue {
+  height: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  line-height: 40px;
+}
+
+.detail {
+  margin-top: 16px;
+  background: #fff;
+}
+
+.detailTitle {
+  height: 64px;
+  background: #FBFBFB;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  line-height: 64px;
+  padding-left: 30px;
+}
+
+.detailCard {
+  background: #fff;
+}
+
+.detailCardHead {
+  height: 108px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0px 1px 0px 0px rgba(214, 214, 214, 1);
+  margin-bottom: 2px;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.detailCardHeadTitle {
+  height: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  line-height: 40px;
+}
+
+.arrowIcon {
+  width: 24px;
+  height: 24px;
+  transition: 0.4s;
+}
+
+.arrowIconOpen {
+  transform: rotate(180deg);
+}
+
+.detailCardContent {
+  background: #F8F8F8;
+  padding: 0 30px;
+}
+
+.detailCardContentTr {
+  background: #F8F8F8;
+  height: 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detailCardContentHead {
+  position: sticky;
+  top: 110px;
+  z-index: 80;
+}
+
+.detailCardContentTh {
+  height: 34px;
+  font-size: 24px;
+  color: #333;
+  line-height: 34px;
+}
+
+.detailCardContentTd {
+  height: 34px;
+  font-size: 24px;
+  color: #666;
+  line-height: 34px;
+}
+
+.detailCardContentTTA {
+  width: 15%;
+}
+
+.detailCardContentTTB {
+  width: 20%;
+}
+
+.detailCardContentTTC {
+  width: 25%;
+  text-align: right;
+}

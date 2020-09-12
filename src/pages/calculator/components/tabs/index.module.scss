@@ -1,0 +1,33 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  height: 88px;
+  background: #fff;
+  box-shadow: 0px -1px 0px 0px rgba(197, 198, 198, 0.5);
+  margin-bottom: 1px;
+}
+
+.tabItem {
+  display: flex;
+  height: 100%;
+}
+
+.tabItemLabel {
+  height: 100%;
+  font-size: 28px;
+  color: #999999;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 6px transparent solid;
+  box-sizing: border-box;
+}
+
+.tabItemLabelActivated {
+  height: 100%;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  line-height: 40px;
+  border-bottom: 6px #DBC09A solid;
+}

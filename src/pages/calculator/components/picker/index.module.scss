@@ -1,0 +1,25 @@
+.picker {
+  height: 100px;
+  width: 510px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100px;
+}
+
+.placeholder {
+  color: #D8D9E1;
+  font-size: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 32px;
+}
+
+.moreIcon {
+  width: 32px;
+  height: 32px;
+  display: block;
+}

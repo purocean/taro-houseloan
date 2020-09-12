@@ -1,0 +1,91 @@
+page {
+  background: #F5F5F5;
+}
+
+.calc {
+  background: #F5F5F5;
+}
+
+.form {
+  padding: 0 30px;
+  background: #fff;
+  padding-top: 8px;
+}
+
+.formItem {
+  height: 110px;
+  box-shadow: 0px -1px 0px 0px rgba(213, 215, 224, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formItemNoLine {
+  box-shadow: none;
+}
+
+.formItemX {
+  display: block !important;
+  height: auto;
+}
+
+.formItemLabel {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 36px;
+  padding-bottom: 24px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  line-height: 40px;
+}
+
+.formItemValue {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.formItemValueText {
+  height: 40px;
+  font-size: 28px;
+  color: #666;
+  line-height: 40px;
+  text-align: right;
+}
+
+.formItemValuePrice {
+  height: 40px;
+  font-size: 28px;
+  font-weight: 400;
+  color: rgba(174,131,64,1);
+  line-height: 40px;
+  margin-left: 16px;
+  position: absolute;
+  right: 0;
+  pointer-events: none;
+}
+
+.formItemValueInput {
+  padding-right: 72px;
+}
+
+.rateRow {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  margin: 48px 30px;
+  height: 88px;
+  background: rgba(230, 56, 54, 1);
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 88px;
+  text-align: center;
+}
