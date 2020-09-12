@@ -25,14 +25,14 @@ export const yearsOptions = [...new Array(30)].map((_, i) => ({ value: i + 1, la
 export const today = dayjs().format('YYYY-MM-DD')
 
 export type Params = {
-  method: 'commercial' | 'housing' | 'mix'
-  totalPrice: number,
-  downPayment: number,
-  paymentMethod: 'eci' | 'ec'
+  method: 'commercial' | 'housing' | 'mix' // 贷款方式 商业 公积金 组合贷
+  totalPrice: number, // 总价
+  downPayment: number, // 首付
+  paymentMethod: 'eci' | 'ec' // 等额本息 等额本金
   housingValue: number, // 公积金贷款总额
   commercialValue: number, // 商业贷款总额
-  years: number,
-  startAt: string,
+  years: number, // 贷款年限
+  startAt: string, // 开始时间
   housingRateBase: number, // 公积金贷款基本利率
   housingRateFactor: number, // 公积金贷款利率乘数
   commercialRateBase: number, // 商业贷款基本利率,
