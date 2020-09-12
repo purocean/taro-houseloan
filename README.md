@@ -1,8 +1,8 @@
 # Taro 房贷计算器
 
-## 截图
-![](./screenshot/1.png)
-![](./screenshot/2.png)
+基于 Taro 框架的房贷计算器
+
+![](./screenshot.png)
 
 ## 开发
 ```bash
